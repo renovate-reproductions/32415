@@ -73,7 +73,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  json (~> 2.1)
   rubocop-airbnb (~> 6.0)
 
 RUBY VERSION
