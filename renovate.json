@@ -1,1 +1,20 @@
-{}
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"binarySource": "global",
+	"packageRules": [
+		{
+			"description": "Group dependencies from Gemfile",
+			"matchFileNames": [
+				"**/Gemfile"
+			],
+			"groupName": "Gemfile dependencies group"
+		},
+		{
+			"matchPackageNames": [
+				"ruby"
+			],
+			"enabled": false,
+			"description": "Disable updates for Ruby packages"
+		}
+	]
+}
