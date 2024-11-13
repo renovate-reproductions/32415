@@ -8,6 +8,8 @@ Steps to reproduce:
 
 for example :
 
+Current behaviour :
+
 rubocop-airbnb (7.0.0)
       rubocop (~> 1.61) => 
       rubocop-performance (~> 1.20)
@@ -26,3 +28,8 @@ rubocop (1.68.0)
       unicode-display_width (>= 2.4.0, < 3.0)
 
 5) After renovate run it is not updating related transient deps.      
+
+
+Expected behaviour :
+
+It should update all the transient deps  like rubocop-ast this deps should also be updated like bundle update does. checked in local run.
